@@ -10,11 +10,51 @@ using System.Windows.Forms;
 
 namespace MedicalAppointmentSystem
 {
-    public partial class AppointmentsForm : Form
+    public partial class AppointmentForm : Form
     {
-        public AppointmentsForm()
+        public AppointmentForm()
         {
             InitializeComponent();
+        }
+
+        private void cmdDoctors_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpAppointmentDate_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PatientName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Contact_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Notes_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnBookAppointment_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ClrForm_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ClsForm_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
